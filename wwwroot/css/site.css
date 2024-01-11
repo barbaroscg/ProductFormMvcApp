@@ -20,3 +20,12 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.field-validation-error{
+  color:crimson;
+  margin-bottom: 10px;
+}
+
+.input-validation-error{
+  border: 2px solid crimson;
+}

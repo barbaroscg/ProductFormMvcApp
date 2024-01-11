@@ -15,7 +15,7 @@ public class HomeController : Controller
         
         if(!String.IsNullOrEmpty(searchString)){
             ViewBag.SearchString = searchString;
-            products = products.Where(p => p.Name.ToLower().Trim().Contains(searchString)).ToList();
+            products = products.Where(p => p.Name.ToLowerInvariant().Trim().Contains(searchString)).ToList();
         }
 
         if(!String.IsNullOrEmpty(category) && category != "0"){
@@ -37,14 +37,20 @@ public class HomeController : Controller
 
     public IActionResult Create()
     {
-        ViewBag.Categories = Repository.Categories;
+        ViewBag.Categories = new SelectList(Repository.Categories, "CategoryId", "Name");
         return View();
     }
 
     [HttpPost]
     public IActionResult Create(Product model)
     {
-        return View();
+        if(ModelState.IsValid)
+        {
+             Repository.CreateProduct(model);
+        return RedirectToAction("Index");
+        }
+        return View(model);
+       
     }
 
    
