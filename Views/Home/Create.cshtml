@@ -15,10 +15,11 @@
         <input asp-for="Price" name="Price"  class="form-control">
         <span asp-validation-for="Price" ></span>
     </div>
-    <div class="mb-3">
-        <label asp-for="Image" class="form-label"></label>
+    <div class="input-group mb-3">
+        <!-- <label asp-for="Image" class="form-label"></label>
         <input asp-for="Image" name="Image"  class="form-control">
-        <span asp-validation-for="Image" ></span>
+        <span asp-validation-for="Image" ></span> -->
+            <input type="file" name="imageFile" id="imageFile" class="form-control">
     </div>
     <div class="mb-3">
         <label asp-for="CategoryId" class="form-label"></label>

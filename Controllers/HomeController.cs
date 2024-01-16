@@ -46,9 +46,11 @@ public class HomeController : Controller
     {
         if(ModelState.IsValid)
         {
-             Repository.CreateProduct(model);
+            model.ProductId = Repository.Products.Count +1;
+        Repository.CreateProduct(model);
         return RedirectToAction("Index");
         }
+        ViewBag.Categories = new SelectList(Repository.Categories, "CategoryId", "Name");
         return View(model);
        
     }
