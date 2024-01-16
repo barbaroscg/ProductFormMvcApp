@@ -15,15 +15,17 @@ namespace ProductFormMvcApp.Models
         [Display(Name="Ürün Adı")]
         public string Name { get; set; }
         [Required(ErrorMessage = "Fiyat zorunludur")]
-        [Range(0,100)]
+        [Range(0,100000)]
         [Display(Name="Ürün Fiyatı")]
         public double Price { get; set; }
         [Display(Name="Ürün Resmi")]
-        [Required(ErrorMessage = "Fotoğraf zorunludur")]
-        public string Image { get; set; }
+        
+        public string? Image { get; set; }
         [Display(Name="Aktif Mi?")]
         public bool IsActive { get; set; }
         [Display(Name="Kategori")]
         public int CategoryId { get; set; }
+
+        public IFormFile? ImageFile { get; set; }
     }
 }

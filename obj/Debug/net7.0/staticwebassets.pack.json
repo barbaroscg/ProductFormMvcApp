@@ -17,8 +17,16 @@
       "PackagePath": "staticwebassets\\img\\1.jpg"
     },
     {
+      "Id": "C:\\Users\\BRIGHT\\Desktop\\Br\\Bright-502\\mvc\\ProductFormMvcApp\\wwwroot\\img\\12afc4f1-9201-4e3b-a2a1-d873a2f5f3b5.jpg",
+      "PackagePath": "staticwebassets\\img\\12afc4f1-9201-4e3b-a2a1-d873a2f5f3b5.jpg"
+    },
+    {
       "Id": "C:\\Users\\BRIGHT\\Desktop\\Br\\Bright-502\\mvc\\ProductFormMvcApp\\wwwroot\\img\\2.jpg",
       "PackagePath": "staticwebassets\\img\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BRIGHT\\Desktop\\Br\\Bright-502\\mvc\\ProductFormMvcApp\\wwwroot\\img\\28131d3e-88ec-4897-a698-c162fdc41937.png",
+      "PackagePath": "staticwebassets\\img\\28131d3e-88ec-4897-a698-c162fdc41937.png"
     },
     {
       "Id": "C:\\Users\\BRIGHT\\Desktop\\Br\\Bright-502\\mvc\\ProductFormMvcApp\\wwwroot\\img\\3.jpg",
@@ -35,6 +43,18 @@
     {
       "Id": "C:\\Users\\BRIGHT\\Desktop\\Br\\Bright-502\\mvc\\ProductFormMvcApp\\wwwroot\\img\\6.jpg",
       "PackagePath": "staticwebassets\\img\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BRIGHT\\Desktop\\Br\\Bright-502\\mvc\\ProductFormMvcApp\\wwwroot\\img\\b1375e9e-e1e9-437e-a0be-368231349a48.jpg",
+      "PackagePath": "staticwebassets\\img\\b1375e9e-e1e9-437e-a0be-368231349a48.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BRIGHT\\Desktop\\Br\\Bright-502\\mvc\\ProductFormMvcApp\\wwwroot\\img\\ca8eda62-25c6-4311-b493-0e673d03d23e.jpg",
+      "PackagePath": "staticwebassets\\img\\ca8eda62-25c6-4311-b493-0e673d03d23e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\BRIGHT\\Desktop\\Br\\Bright-502\\mvc\\ProductFormMvcApp\\wwwroot\\img\\d39f03fe-c8c6-459a-93d1-974bfcdb4be2.jpg",
+      "PackagePath": "staticwebassets\\img\\d39f03fe-c8c6-459a-93d1-974bfcdb4be2.jpg"
     },
     {
       "Id": "C:\\Users\\BRIGHT\\Desktop\\Br\\Bright-502\\mvc\\ProductFormMvcApp\\wwwroot\\js\\site.js",
